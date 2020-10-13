@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'lato',sans-serif;
+	background-image:url("../regbox.jpg");
+	background-size:cover;
+	width:100vh;
+	background-postion:center;
+	
+}
+.register_conatiner{
+	position:relative;
+	height:100vh;
+}
+
+.register_box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+	background-color:#111;
+	padding: 20px;
+	border-radius:0;
+	box-shadow:0 55px 85px ;
+}
+
+.register_box h2{
+	margin:0 0 30px;
+	letter-spacing:10px;
+	text-transform: uppercase;
+	padding:0;
+	font-size:40px;
+	color:#b24040;
+	text-align: left;
+}
+
+.register_box .user_box{
+	position: relative;
+}
+
+.register_box .user_box input{
+	width:100%;
+	padding:10px 0;
+	font-size: 16px;
+	color:#fff;
+	margin-bottom: 30px;
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background-color: transparent;
+	
+}
+
+.register_box .user_box label{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition: 0.5s;
+
+}
+
+.register_box .user_box  input:focus ~ label,
+.register_box .user_box  input:valid ~ label{
+	top:-20px;
+	color: #03e9f;
+	font-size:12px;
+}
+
+.register_box form a{
+	display:inline-block;
+	padding:10px 15px;
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	transition: 0.5s;
+	margin-top:20px;
+	letter-spacing:4px;
+	background-color: #b24040;
+	border:1px solid ;
+	border-color:#b24040;
+}
+
+.register_box form a:hover{
+	background-color: #b24040;
+	color:#fff;
+	box-shadow: 0 0 5px #b24040,
+				0 0 25px #b24040,
+				0 0 50px #b24040,
+				0 0 100px #b24040;
+}

@@ -1,0 +1,698 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*-----Basic Styling------*/
+/*-----Marqueee---->
+<div class="header-marquee">
+	<marquee direction="left" class="marquee_1">Due To Covid Pandemic We May Get Delay...!</marquee>
+</div>
+.header-marquee{
+	background-color: #111;
+}
+.marquee_1{
+	font-size:15px; 
+	font-family: sans-serif; 
+	color: rgb(165 105 9); 
+	font-weight: 600; 
+	letter-spacing: 5px;	
+}*/
+h1,h2,h3,h4{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+p{
+	color: #fff;
+	line-height: 1.6;
+}
+span,a{
+	display: inline-block;
+}
+.mt-20{
+	margin-top: 10px;
+}
+.mb-20{
+	margin-bottom: 10px;
+}
+.pb-35{
+	font-size: 20px;
+	color: rgb(232, 181, 99);
+	text-align: center;
+	padding-top: 50px;
+}
+.mb-30
+{
+	color: rgb(232, 230, 227);
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+/*-----Navigation Bar Styling------*/
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    width: 130px;
+    background-size: auto;
+    height: 55px;
+    background-repeat: no-repeat;
+    line-height: 20px;
+    background-image: url(../images/logo_main.png);
+ }
+.navbar-dark .navbar-nav .nav-link{
+	color:#fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	transition: 0.7s all;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: rgb(165 105 9);
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	color: rgb(165 105 9) !important;
+}
+.navbar{
+	padding: 15px 0;
+	background: transparent;
+}
+.nav-scroll{
+	background-color: #111;
+	box-shadow: 0 1px 8px 3px rgba(0,0,0,0.5);
+	transition: 1.5s all;
+}
+/*-----Front Page Styling------*/
+
+.cover-bg{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/mainbg.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	align-items: center;
+	display: flex;
+}
+.banner .caption h4{
+	color:rgb(232, 230, 227);
+	font-size: 30px;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+.banner .caption h2{
+	font-family: 'Barrio';
+	color:rgb(169 95 4);	
+	font-weight: 900;
+	font-size: 150px;
+	letter-spacing: -1px;
+
+}
+.banner .caption p{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 3px;
+	line-height: 32px;
+	opacity: 0.7;
+}
+.banner .caption .social_icon a{
+	color:  rgb(209 168 108);
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50% ;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+	font-size: 25px;
+	transition: 0.5s all;
+}
+.banner .caption .social_icon a:hover{
+	color: rgb(234 142 13);
+}
+
+/*-----About Us Styling------*/
+
+.history_about_us{
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)) ,url(../images/history-bg.jpg);
+	height:850px;
+	width: 100%;
+}
+.history-single{
+	color: #fff;
+	background-color: #111;
+	position: absolute;
+  	right: 16px;
+	width:400px;
+	height:850px;
+	box-shadow:-20px 12px 85px 8px black;
+    padding: 10px;
+
+}
+.info-mt-35 {
+	padding:10px;
+	
+}
+
+/*------Service Page Styling-------*/
+
+.services{
+	background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/review_man1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:870px;
+    width: 100%;
+
+}
+
+.main-title-service p{
+	text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    color:rgb(232, 181, 99);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.main-title-service h2{
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 40px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.service-single{
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+}
+.service-single h3{
+	text-align: center;
+	padding-bottom: 20px;
+	letter-spacing: 5px;
+}
+.service-single p{
+	color: #746b6b;
+}
+.icon-box{
+	text-align: center;
+}
+.flaticon-chef{
+	border-radius: 50%;
+    width: 100px;
+    padding-bottom: 20px;
+
+}
+.flaticon-menu{
+	border-radius: 50%;
+    width: 100px;
+    padding-bottom: 20px;
+
+}
+.flaticon-cup{
+	border-radius: 40%;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.laticon-24hours{
+	border-radius: 40%;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.flaticon-delivery{
+	border-radius: 40%;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+/*-------Pricing Page Styling-------*/
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/regbox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+	position: relative;
+}
+.container .card{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #332323;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.container .card:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: rgb(165 105 9);
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.container .card:hover:before{
+	clip-path: circle(300px at 80% -20%);
+}
+.container .card:hover:after{
+	content: 'COFFEEE9';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 6em;
+	font-weight: 600;
+	font-style: italic;
+	color: rgba(255,255,255,0.4);
+}
+.container .card .imgBx{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.container .card:hover .imgBx{
+	top: 0%;
+	transform: translateY(0%);
+}
+.container .card .imgBx img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)rotate(-25deg);
+	width: 270px;
+}
+
+.container .card .contentBx{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.container .card:hover .contentBx{
+	height: 210px;
+}
+.container .card .contentBx h2{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.container .card .contentBx .quantity{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition:0.5s ;
+	opacity: 0;
+	visibility: hidden;
+}
+.container .card:hover .contentBx .quantity{
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+}
+.container .card:hover .contentBx .discription{
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.6s;
+}
+.container .card .contentBx .quantity h3{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.container .card .contentBx .quantity span{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	margin: 0 5px;
+	transition: 0.5s;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.container .card .contentBx .quantity span:hover{
+	background: rgb(165 105 9);
+}
+.container .card .contentBx .discription{
+	align-items: center;
+	padding: 8px 20px;
+	transition:0.5s ;
+	opacity: 0;
+	visibility: hidden;
+}
+.container .card .contentBx .discription span{
+	color: rgb(232, 181, 99);
+	font-size: 18px;
+}
+.container .card .contentBx a{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+}
+.container .card:hover .contentBx a{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+#card1{
+	float: left;
+}
+#card2{
+	float: left;
+}
+#card3{
+	float: left;
+}
+#card4{
+	float: right;
+}
+.pricing-main-title h2{
+	text-align: center;
+	font-size: 25px;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.pricing-main-title p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:rgb(232, 181, 99);
+    text-transform: uppercase; 
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+/*------Testimonial Styling------*/
+.testimonial{
+	background-color: #111;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1.3)),url(../images/testimonial-bg.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+.testimonial-main-title p{
+	text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color:rgb(232, 181, 99);
+    text-transform: uppercase; 
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.testimonial-main-title h2{
+	text-align: center;
+	font-size: 25px;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.testimonial .testimonial_items{
+	text-align: center;
+	padding: 30px;
+}
+.testimonial .testimonial_items .icon i{
+	color:rgb(232, 181, 99);
+	font-size:30px
+}
+.testimonial .testimonial_items p{
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.testimonial .testimonial_items .testimonial_author{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.testimonial .testimonial_items .testimonial_author .part_img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+.testimonial .testimonial_items .testimonial_author .part_img img{
+	border-radius: 50%;
+}
+.testimonial .testimonial_items .testimonial_author .text{
+	text-align: left;	
+}
+.testimonial .testimonial_items .testimonial_author .text h5{
+	color:rgb(232, 181, 99);
+	font-size: 20px;
+	margin-bottom: 3px;	
+}
+.testimonial .testimonial_items .rating{
+	text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(232, 181, 99);
+}
+
+/*------Contact Us Page Styling------*/
+.contactus{
+	background-color: #111;
+    position: relative;
+    padding: 100px 0;
+}
+.contact-info{
+	padding: 2%;
+}
+.contact-info .contact-image{
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+.contactus .google-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.contactus .google-map iframe {
+    width: 100%;
+    height: 100%;
+}
+.contact-box{
+	background-color: #111;
+	padding: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.contact-information{
+	margin-top: 40px;
+	text-align: center;
+}
+.contact-information .contact-info-single {
+	position: relative;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+.contact-information .contact-info-single .icon-box {
+    color: rgb(232, 181, 99);
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    left: 0;
+    top: 1px;
+    font-size: 42px;
+}
+.contact-information .contact-info-single p {
+    color: rgb(232, 230, 227);
+    font-size: 20px;
+	padding-left: 30px;
+}
+.contact-information .contact-info-single .icon-box i{
+	color:rgb(232, 181, 99);
+	font-size:50px;
+	margin-left: 30px;
+}
+.contact-form {
+    padding: 10%;
+    text-align: center;
+}
+.contactus-main-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contactus-main-title p {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #e7b360;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+ }
+.form-group {
+    margin-bottom: 15px;
+}
+.contact-form .form-control {
+    box-shadow: none;
+    border-color: initial;
+    outline-color: initial;
+    background-image: initial;
+    background-color: rgb(37, 40, 41);
+    margin-bottom: 20px;
+}
+.contact-form .btn-custom {
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #805209;
+}
+.contact-form .btn-custom:hover{
+	background-color: transparent;
+	border: 1px solid #ddd;
+	border-color: #fff;
+ }
+.contact-form .contactus-main-title p{
+	margin-top: 30px;
+}
+.contact-form .contactus-main-title h2{
+	padding-top: 20px;
+	color: #fff;
+}
+
+
+/*------Footer Styling------*/
+.siteinfo{
+	padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.siteinfo a{
+	text-decoration: none;
+	color:#fff;
+}
+.footer-design{
+	background-color:#111;
+	height: 250px;
+	width: 100%;
+}
+.footer-menu{
+	text-align: center;
+}
+.footer-menu li a{
+	text-decoration: none;
+	color:#fff;
+	padding-top: 10px;
+}
+.footer-menu li a:hover{
+	color: #007bff;
+}
+.footer-social{
+	text-align: center;
+}
+.footer-social a{
+	
+	color:  rgb(209 168 108);
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50% ;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+	font-size: 16px;
+	transition: 0.5s all;
+
+}
+.footer-social a:hover{
+	
+	color:  rgb(234 142 13);
+}
+
+/*---------------------------*/
+@media only screen and (max-width: 991px){
+	.navbar .container{
+		max-width: 100%;
+	}
+	.navbar .custom_logo{
+		margin-left: 20px;
+		padding: 0 10px;
+		font-size: 16px;
+	}
+	.nav-scroll .navbar-toggler span{
+		color: #333;
+	}
+	.navbar .navbar-collapse{
+		overflow: hidden;
+		background: #111;
+		color: #111 !important;
+		text-align: center;
+		padding: 10px 0;
+		margin:10px 0; 
+	}
+	.nav-scroll .navbar-collapse{
+		background-color: #111;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.banner .caption h4{
+		font-size: 16px;
+	}
+	.banner .caption h2{
+		font-size: 35px;
+	}
+	.pricing .container .pricing-main-title p{
+		margin-bottom: 5px;
+		margin-top:10px;
+	}
+	.pricing {
+		width: 100%;
+		height: 1000px; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
